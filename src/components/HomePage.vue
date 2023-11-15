@@ -12,9 +12,19 @@ import { ref } from 'vue'
 const secretMessage = ref('')
 
 function onClick(){
-    secretMessage.value = 'I love you!'
+    const index = Math.floor(Math.random() * secretMessages.length);
+    secretMessage.value = secretMessages[index]
     window.setTimeout(() => { secretMessage.value = ''  }, 1000)
 }
+
+const secretMessages = [
+    'I love you',
+    "It's okay, fish",
+    'You are always loved',
+    "Things are never as bad as they seem",
+    "You've got this!",
+    'I believe in you'
+]
 
 </script>
 
