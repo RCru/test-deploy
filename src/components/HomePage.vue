@@ -23,7 +23,12 @@ const secretMessages = [
     'You are always loved',
     "Things are never as bad as they seem",
     "You've got this!",
-    'I believe in you'
+    'I believe in you',
+    'I hope your UTI feels better soon',
+    "You're being very brave",
+    "It's lonely here without you",
+    "Team Rob & Emma",
+    "Shhhlluuuuuuurrrrrrp"
 ]
 
 </script>
